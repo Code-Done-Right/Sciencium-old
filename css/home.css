@@ -2,10 +2,16 @@
 
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #222222;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../bgimages/background.jpg)
 }
+
 /* NAV BAR */
 header {
     display: flex;
@@ -22,6 +28,11 @@ li, a {
     cursor: pointer;
     width: 300px;
     height: 80px;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover {
+    opacity: 0.8
 }
 
 .nav-links {
@@ -67,6 +78,7 @@ button:hover {
 
 .meta-div {
     padding: 100px;
+    padding-left: 70px;
 }
 
 .text {
