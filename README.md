@@ -4,5 +4,8 @@ Sciencium is an interactive webpage designed to help people learn more about sci
 
 # 💥 What's new
 
-v1.0.0
-- Added the initial login screen
+v1.2.1
+- Added the about page
+- Fixed bugs, improved layout
+- Added background for home page, removed temporary text
+- Tweaked the login, about pages
