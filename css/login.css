@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 body {
-    padding: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
     background-color: #222222;
 }
 
@@ -23,6 +24,11 @@ li, a {
     cursor: pointer;
     width: 300px;
     height: 80px;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover {
+    opacity: 0.8
 }
 
 .nav-links {
