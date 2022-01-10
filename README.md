@@ -4,5 +4,5 @@ Sciencium is an interactive webpage designed to help people learn more about sci
 
 # 💥 What's new
 
-v1.2.2
-- Temporarily changed logo
+v1.2.3
+- Added a dynamic background in the home page
