@@ -26,7 +26,7 @@ li, a {
 
 .logo {
     cursor: pointer;
-    width: 300px;
+    width: 400px;
     height: 80px;
     transition: all 0.3s ease 0s;
 }
@@ -74,15 +74,20 @@ button:hover {
     background-color: rgba(0, 114, 255, 0.8);
 }
 
+.contact {
+    font-family: 'Arvo', serif;
+    color: #d8d8d8
+}
+
 /* TEXT */
 
 .meta-div {
-    padding: 100px;
+    padding-top: 80px;
     padding-left: 70px;
 }
 
 .text {
     font-size: 30px;
     color: #dbdbdb;
-    font-family: 'Arvo', serif;
+    font-family: 'Arvo', sans-serif;
 }
