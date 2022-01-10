@@ -4,12 +4,35 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #222222;
     height: 100%;
     background-position: center;
+    background-color: #222222;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../bgimages/background.jpg)
+}
+
+.bgImageContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.bgImageContainer img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    object-fit: cover;
+    transition: opacity .8s ease;
+    z-index: -1;
+    opacity: 0;
+}
+.current {
+    opacity: 1 !important;
+    z-index: 0 !important;
 }
 
 /* NAV BAR */
