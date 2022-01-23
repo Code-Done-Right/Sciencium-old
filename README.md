@@ -4,5 +4,8 @@ Sciencium is an interactive webpage designed to help people learn more about sci
 
 # 💥 What's new
 
-v1.2.3
-- Added a dynamic background in the home page
+v1.3.1
+- Tweaked quite a few things in home, about pages
+- Added a react app in the project
+- Planning to migrate project entirely to react
+- Courses and Dropdown being worked on, right now! :D
