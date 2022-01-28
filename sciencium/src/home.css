@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body {
+    background-color: #222222;
+}
+
+.App-main {
+    background-color: #222222;
+}
+
+.header {
+    font-family: 'Arvo', sans-serif;
+    color: #dbdbdb;
+}
