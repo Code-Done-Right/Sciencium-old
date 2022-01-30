@@ -14,7 +14,17 @@ function HomePage () {
                 <img class="next" src="new.png"/>
             </div>
             */}
-
+            <header className='navbar-outer-wrapper'>
+                <img className='sciencium-banner' src='sciencium_banner.png'/>
+                <nav>
+                    <ul className='nav-links'>
+                        <li><h1>Home</h1></li>
+                        <li><h1>Courses</h1></li>
+                        <li><h1>Login</h1></li>
+                        <li><h1>About</h1></li>
+                    </ul>
+                </nav>
+            </header>
             <div className='meta-div'>
                 <div>
                     <div className="text">
