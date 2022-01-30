@@ -1,14 +1,20 @@
+/* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
+/* Background related CSS */
 body {
     background-color: #222222;
 }
 
-.App-main {
-    background-color: #222222;
+.meta-div {
+    padding-left: 0;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
-.header {
+/* Text components of the website */
+.text {
     font-family: 'Arvo', sans-serif;
     color: #dbdbdb;
+    font-size: 30px;
 }

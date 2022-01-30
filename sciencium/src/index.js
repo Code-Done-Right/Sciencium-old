@@ -1,10 +1,22 @@
+// Imports
 import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
-import App from './home.js';
-import App2 from './mhm.js';
+
+import HomePage from './home.js';
 import './index.css';
 
+// Main App, contains all the information shown on the screen.
+function App () {
+    return (
+        <HomePage/>
+    );
+}
+
+// Rendering
 ReactDOM.render(
-    <App />,
+    <StrictMode>
+        <App/>
+    </StrictMode>,
     document.getElementById('root')
 )
