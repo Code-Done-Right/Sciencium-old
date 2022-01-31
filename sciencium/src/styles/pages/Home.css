@@ -1,0 +1,44 @@
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  padding-top: 2rem;
+  height: calc(100vh - 5.5rem);
+  background: #111111;
+}
+
+.hero-left {
+  width: 40%;
+}
+
+.hero-left > .welcome {
+  font-size: 4rem;
+  color: hsl(220, 70%, 85%);
+}
+
+.hero-left > .info {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #777777;
+}
+
+.hero-right {
+  width: 50%;
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 500ms linear;
+  opacity: 0;
+}
+
+.hero-image.current {
+  opacity: 1;
+}
