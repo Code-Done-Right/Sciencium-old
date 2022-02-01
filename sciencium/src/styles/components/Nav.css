@@ -2,7 +2,7 @@
   height: 5.5rem;
   width: 100%;
   padding: 0.75rem 2rem;
-  background-color: #111111;
+  background-color: #222222;
   display: flex;
   justify-content: space-between;
 }
@@ -34,6 +34,7 @@
   font-size: 1.25rem;
   padding: calc((4rem - 1.25rem) / 2 - 2px) 1rem;
   transition: background-color 250ms ease-in-out;
+  text-decoration: none;
 }
 
 .nav-links > li > a:hover {
