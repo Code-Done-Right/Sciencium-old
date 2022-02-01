@@ -4,8 +4,10 @@
   justify-content: space-between;
   padding: 4rem;
   padding-top: 2rem;
+  padding-right: 0;
   height: calc(100vh - 5.5rem);
   background: #111111;
+  overflow: hidden;
 }
 
 .hero-left {
@@ -25,9 +27,8 @@
 
 .hero-right {
   width: 50%;
-  height: 80%;
+  height: 100%;
   position: relative;
-  overflow: hidden;
 }
 
 .hero-image {
