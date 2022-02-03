@@ -9,6 +9,8 @@ import "./styles/App.css";
 
 // components and pages
 import Home from "./pages/Home.js";
+import Login from "./pages/Login.js";
+
 import Nav from "./components/Nav.js";
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
