@@ -35,6 +35,7 @@ function Home() {
               className={
                 heroImageIndex === i ? "hero-image current" : "hero-image"
               }
+              alt='changing bg'
               key={i}
             />
           ))}

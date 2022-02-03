@@ -4,7 +4,7 @@ import "../styles/components/Nav.css";
 function Nav() {
   return (
     <div className="navbar-wrapper">
-      <img className="logo" src={banner}></img>
+      <img className="logo" src={banner} alt='sciencium banner'></img>
       <div className="links">
         <nav>
           <ul className="nav-links">
