@@ -1,0 +1,14 @@
+.header {
+    text-align : center;
+}
+
+.header > .header-title {
+    font-size: 4rem;
+    color: hsl(220, 70%, 85%);
+  }
+  
+.header > .header-text {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #777777;
+}

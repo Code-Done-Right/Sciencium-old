@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@700&display=swap");
+.hero-wrapper {
+	background-color: #111111;
+}
+
+.ff-primary {
+	color: hsl(220, 70%, 85%);
+	font-size: 4rem;
+}
+
+.ff-secondary {
+	color: #777777;
+	font-size: 1.5rem;
+}
+
+.about {
+    padding-right:10px;
+}
