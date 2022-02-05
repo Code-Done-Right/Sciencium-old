@@ -3,11 +3,13 @@ import React, { useState, useEffect } from "react";
 import "../styles/pages/Home.css";
 import heroImg1 from "../assets/HeroImg1.jpg";
 import heroImg2 from "../assets/HeroImg2.jpg";
-// Import components from component folder, add to HomePage function
+
+// Import components from component folder, add to Home function
 function Home() {
   const heroRightImages = [heroImg1, heroImg2];
   const [heroImageIndex, setHeroImageIndex] = useState(1);
 
+  // Dynamic background
   useEffect(() => {
     setInterval(() => {
       console.log(heroImageIndex);

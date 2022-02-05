@@ -1,6 +1,9 @@
+//Imports
 import React from "react";
 import banner from "../assets/sciencium_banner.png";
 import "../styles/components/Nav.css";
+
+// Navbar
 function Nav() {
   return (
     <div className="navbar-wrapper">
