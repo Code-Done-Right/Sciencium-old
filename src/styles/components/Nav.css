@@ -44,10 +44,11 @@
 .contact {
   padding: 0.5rem 2rem;
   text-decoration: none;
-  color: #ddd;
+  color: #dddddd;
   background-color: hsl(220, 100%, 40%);
   border-radius: 100vw;
   transition: background-color 250ms ease-in-out;
+  font-size: 1.25rem;
 }
 
 .contact:hover {
