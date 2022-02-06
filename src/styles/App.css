@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@800&display=swap");
 
 *,
 *::before,
@@ -8,8 +8,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --clr-primary-hue: 160;
+  --clr-primary-saturation: 100%;
+  --clr-secondary-hue: 200;
+  --clr-secondary-saturation: 100%;
+}
+
 body {
-  background-color: #222222;
+  background-color: #111111;
 }
 
 .ff-primary {

@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-letter {
+  font-size: 2rem;
+  color: hsl(var(--clr-primary-hue), var(--clr-primary-saturation), 40%);
+}
+
+.logo-letter:nth-child(2n + 1) {
+  padding-bottom: 0.25rem;
+}
+
+.logo-letter:nth-child(2n) {
+  padding-top: 0.25rem;
+}

@@ -1,10 +1,11 @@
 import React from "react";
-import banner from "../assets/sciencium_banner.png";
+import Logo from "./Logo.js";
 import "../styles/components/Nav.css";
+
 function Nav() {
   return (
     <div className="navbar-wrapper">
-      <img className="logo" src={banner}></img>
+      <Logo />
       <div className="links">
         <nav>
           <ul className="nav-links">

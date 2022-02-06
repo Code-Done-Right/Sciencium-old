@@ -1,26 +1,38 @@
 .hero-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 4rem;
   padding-top: 2rem;
   padding-right: 0;
   height: calc(100vh - 5.5rem);
-  background: #111111;
+  background-size: cover;
+  /* background: #111111; */
   overflow: hidden;
 }
 
 .hero-left {
-  width: 40%;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-left > .welcome {
+  text-align: center;
   font-size: 4rem;
-  color: hsl(220, 70%, 85%);
+  color: hsl(var(--clr-secondary-hue), var(--clr-secondary-saturation), 75%);
+}
+
+.hero-left > .welcome > span {
+  color: hsl(var(--clr-primary-hue), var(--clr-primary-saturation), 55%);
 }
 
 .hero-left > .info {
+  width: 30ch;
   margin-top: 2rem;
+  text-align: center;
   font-size: 1.5rem;
   color: #777777;
 }
