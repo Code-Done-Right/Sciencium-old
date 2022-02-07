@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@900&display=swap");
 
 *,
 *::before,
@@ -8,8 +8,9 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #111111;
+:root {
+  --clr-primary-hue: 160;
+  --clr-secondary-hue: 200;
 }
 
 /* ff stands for font family */
