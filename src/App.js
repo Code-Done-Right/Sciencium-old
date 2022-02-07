@@ -13,7 +13,8 @@ import Home from "./pages/Home.js";
 import Login from "./pages/Login.js";
 import Courses from "./pages/Courses.js";
 import About from "./pages/About.js";
-import Nav from "./components/Nav.js";
+
+import Nav from "./components/Nav.jsx";
 
 // Primary App
 function App() {
