@@ -17,7 +17,7 @@ function Home() {
         (heroImageIndex) => (heroImageIndex + 1) % heroRightImages.length
       );
     }, 10000);
-  }, [heroImageIndex, heroRightImages]);
+  }, []);
 
   return (
     <div className='home-page'>
