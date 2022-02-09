@@ -1,6 +1,6 @@
 //Imports
 import React from "react";
-import Logo from "./Logo.js";
+import Logo from "./Logo.jsx";
 import "../styles/components/Nav.css";
 
 // Navbar
