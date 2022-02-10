@@ -24,8 +24,13 @@ function Nav() {
               </a>
             </li>
             <li>
-              <a href="/login" className="ff-secondary">
+              <a href="https://scienciumauth.pythonanywhere.com/login" className="ff-secondary">
                 Log In
+              </a>
+            </li>
+            <li>
+              <a href="https://scienciumauth.pythonanywhere.com/register" className="ff-secondary">
+                Sign Up
               </a>
             </li>
             <li>
