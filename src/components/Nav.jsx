@@ -35,7 +35,10 @@ function Nav() {
               </a>
             </li>
             <li>
-              <a href="https://scienciumauth.pythonanywhere.com/register" className="ff-secondary">
+              <a
+                href="https://scienciumauth.pythonanywhere.com/register"
+                className="ff-secondary"
+              >
                 Sign Up {/* skipcq: JS-0415 */}
               </a>
             </li>
