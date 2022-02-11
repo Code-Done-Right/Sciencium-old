@@ -13,7 +13,7 @@ function Sidebar () {
             <ul className='sidebar-nav-links ff-secondary'>
                 <li className='get-started'>
                     <a href='/courses'>
-                        Get started
+                        Get started {/* skipcq: JS-0415 */}
                     </a>
                 </li>
                 <li className='sub-links ff-secondary'>
