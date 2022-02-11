@@ -1,6 +1,9 @@
 import React from 'react';
+
+// none - Import module without exported functions or classes.
 import '../styles/components/Sidebar.css';
 
+// [2, { "max": 5 }]
 function Sidebar () {
     return (
         <div className='sidebar-wrapper'>

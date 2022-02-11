@@ -1,4 +1,6 @@
 import React from 'react';
+
+// none - Import module without exported functions or classes.
 import '../../styles/pages/pages_courses/get_started.css';
 
 function GetStartedPage () {

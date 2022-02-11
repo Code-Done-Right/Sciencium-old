@@ -1,9 +1,12 @@
 //Imports
 import React from "react";
-import Logo from "./Logo.jsx";
+import Logo from "./Logo.jsx"; // skipcq: JS-0249
+
+// none - Import module without exported functions or classes.
 import "../styles/components/Nav.css";
 
 // Navbar
+// [2, { "max": 5 }]
 function Nav() {
   return (
     <div className="navbar-wrapper">

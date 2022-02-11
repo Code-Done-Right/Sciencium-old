@@ -1,4 +1,6 @@
 import React from "react";
+
+// none - Import module without exported functions or classes.
 import "../styles/components/Logo.css";
 
 function Logo() {
