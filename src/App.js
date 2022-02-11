@@ -21,6 +21,8 @@ function App() {
   return (
     <div className="app">
       <Nav />
+
+      {/* Routes */}
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
