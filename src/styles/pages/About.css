@@ -1,0 +1,14 @@
+.about-text {
+    text-align: center;
+    margin-top: 30vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: hsl(var(--clr-secondary-hue), 100%, 75%);
+    font-size: 3vw;
+}
+
+.contributors {
+    text-align: center;
+    font-size: 2vw;
+    color: hsl(var(--clr-secondary-hue), 100%, 75%);
+}
