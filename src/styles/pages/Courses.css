@@ -1,18 +1,18 @@
 .courses-page {
-    display: flex;
+  display: flex;
 }
 
 .header {
-    text-align : center;
+  text-align: center;
 }
 
 .header > .header-title {
-    font-size: 4rem;
-    color: hsl(220, 70%, 85%);
-  }
-  
+  font-size: 4rem;
+  color: hsl(220, 70%, 85%);
+}
+
 .header > .header-text {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    color: #777777;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #777777;
 }
