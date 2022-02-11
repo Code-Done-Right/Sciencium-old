@@ -1,0 +1,34 @@
+.sidebar-wrapper {
+    margin-left: 0vw;
+    background-color: #0f0f0f;
+    width: 15vw;
+    height: calc(100vh - 5rem);
+}
+
+.sidebar-header {
+    padding: 1vw 2vw;
+    color: hsl(var(--clr-primary-hue), 100%, 45%);
+}
+
+.sidebar-nav-links {
+    padding: 1vw 2vw;
+    color: #ffffff;
+    list-style: none;
+}
+
+.get-started {
+    font-size: 1.25vw;
+}
+
+.get-started > a {
+    text-decoration: none;
+    color: #f6f2f2;
+}
+
+.sub-links {
+    color: hsl(var(--clr-primary-hue), 10%, 65%);
+}
+
+.sidebar-nav-links > li {
+    padding: 0.5vw 0 0.5vw 0;
+}
