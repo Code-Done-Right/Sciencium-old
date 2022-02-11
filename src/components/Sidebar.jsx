@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 // none - Import module without exported functions or classes.
-import '../styles/components/Sidebar.css';
+import "../styles/components/Sidebar.css";
 
 // [2, { "max": 5 }]
 function Sidebar () {

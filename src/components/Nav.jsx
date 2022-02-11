@@ -1,4 +1,4 @@
-//Imports
+// Imports
 import React from "react";
 import Logo from "./Logo.jsx"; // skipcq: JS-0249
 
@@ -27,7 +27,10 @@ function Nav() {
               </a>
             </li>
             <li>
-              <a href="http://scienciumauth.pythonanywhere.com/login" className="ff-secondary">
+              <a
+                href="http://scienciumauth.pythonanywhere.com/login"
+                className="ff-secondary"
+              >
                 Log In
               </a>
             </li>
