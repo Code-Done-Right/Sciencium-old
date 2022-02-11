@@ -1,3 +1,7 @@
+.courses-page {
+    display: flex;
+}
+
 .header {
     text-align : center;
 }
