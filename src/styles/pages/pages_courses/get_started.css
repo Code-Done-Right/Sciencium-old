@@ -1,4 +1,8 @@
 .get-started-page-wrapper {
-    color: #ffffff;
     padding: 10vh 0 0 5vw;
+}
+
+.introduction-text {
+    color: #afd7ff;
+    font-size: 4vw;
 }

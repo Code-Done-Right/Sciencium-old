@@ -44,13 +44,13 @@
   padding: 0.5rem 2rem;
   text-decoration: none;
   color: #dddddd;
-  background-color: hsl(var(--clr-secondary-hue), 100%, 35%);
+  background-color: hsl(var(--clr-secondary-hue), 100%, 50%);
   border-radius: 100vw;
   transition: all 250ms ease-in-out;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .contact:hover {
   transform: scale(1.05);
-  background-color: hsl(var(--clr-secondary-hue), 100%, 40%);
+  background-color: hsl(var(--clr-secondary-hue), 100%, 55%);
 }

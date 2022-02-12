@@ -14,7 +14,7 @@ function Home() {
         style={{ backgroundImage: `url('${heroBackground}')` }}
       >
         <h1 className="welcome ff-primary">
-          Learn from <span>Sciencium</span> and improve you{" "}
+          Learn from <span>Sciencium</span> and improve your{" "}
           <span>STEM skills</span> now!
         </h1>
         <p className="info ff-secondary">
