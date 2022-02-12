@@ -9,7 +9,7 @@ function GetStartedPage() {
       <h1 className="introduction-text ff-primary">
         Getting Started with Sciencium
       </h1>
-      Hi! 
+      Hi!
     </div>
   );
 }
