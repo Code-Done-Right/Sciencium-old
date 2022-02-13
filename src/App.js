@@ -39,7 +39,10 @@ export default function App() {
           <Route path="/about" element={<About />} />
 
           {/* Courses subpages */}
-          <Route path="/introductory-science" element={<IntroductorySciencePage />}/>
+          <Route
+            path="/introductory-science"
+            element={<IntroductorySciencePage />}
+          />
 
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

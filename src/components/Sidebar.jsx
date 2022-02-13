@@ -13,7 +13,7 @@ export default function Sidebar() {
           <a href="/courses">Get started {/* skipcq: JS-0415 */}</a>
         </li>
         <li className="sub-links ff-secondary">
-          <a href='/introductory-science'>Introductory Science</a>
+          <a href="/introductory-science">Introductory Science</a>
         </li>
         <li className="sub-links ff-secondary">Math</li>
         <li className="sub-links ff-secondary">Thinking</li>
@@ -22,4 +22,3 @@ export default function Sidebar() {
     </div>
   );
 }
-

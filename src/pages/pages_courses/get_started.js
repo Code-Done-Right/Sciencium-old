@@ -9,7 +9,8 @@ export default function GetStartedPage() {
       <h1 className="introduction-text ff-primary">
         Getting Started with Sciencium
       </h1>
-      Hi there! Welcome to the courses page of Sciencium. This page is here to get you started.
+      Hi there! Welcome to the courses page of Sciencium. This page is here to
+      get you started.
     </div>
   );
 }
