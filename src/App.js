@@ -19,11 +19,13 @@ import Login from "./pages/Login.js";
 import Courses from "./pages/Courses.js";
 import About from "./pages/About.js";
 
+import IntroductorySciencePage from "./pages/pages_courses/science";
+
 import Nav from "./components/Nav.jsx";
 
 // Primary App
 // [2, { "max": 5 }]
-function App() {
+export default function App() {
   return (
     <div className="app">
       <Nav />
@@ -35,6 +37,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/about" element={<About />} />
+
+          {/* Courses subpages */}
+          <Route path="/introductory-science" element={<IntroductorySciencePage />}/>
+
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
@@ -42,5 +48,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -7,7 +7,7 @@ import Sidebar from "../components/Sidebar";
 // Subpages
 import GetStartedPage from "./pages_courses/get_started"; // skipcq: JS-0249
 
-function Courses() {
+export default function Courses() {
   return (
     <div className="courses-page">
       <Sidebar />
@@ -15,5 +15,3 @@ function Courses() {
     </div>
   );
 }
-
-export default Courses;

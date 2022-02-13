@@ -6,7 +6,7 @@ import "../styles/pages/Home.css";
 import heroBackground from "../assets/heroBackground.png";
 
 // [2, { "max": 5 }]
-function Home() {
+export default function Home() {
   return (
     <div className="home-page">
       <div
@@ -24,5 +24,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

@@ -7,7 +7,7 @@ import "../styles/components/Nav.css";
 
 // Navbar
 // [2, { "max": 5 }]
-function Nav() {
+export default function Nav() {
   return (
     <div className="navbar-wrapper">
       <a href="/" className="logo-link">
@@ -56,5 +56,3 @@ function Nav() {
     </div>
   );
 }
-
-export default Nav;

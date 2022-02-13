@@ -4,7 +4,7 @@ import React from "react";
 import "../styles/components/Sidebar.css";
 
 // [2, { "max": 5 }]
-function Sidebar() {
+export default function Sidebar() {
   return (
     <div className="sidebar-wrapper">
       <h1 className="sidebar-header ff-primary">Table of contents</h1>
@@ -12,7 +12,9 @@ function Sidebar() {
         <li className="get-started">
           <a href="/courses">Get started {/* skipcq: JS-0415 */}</a>
         </li>
-        <li className="sub-links ff-secondary">Science</li>
+        <li className="sub-links ff-secondary">
+          <a href='/introductory-science'>Introductory Science</a>
+        </li>
         <li className="sub-links ff-secondary">Math</li>
         <li className="sub-links ff-secondary">Thinking</li>
         <li className="sub-links ff-secondary">Logic</li>
@@ -21,4 +23,3 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;

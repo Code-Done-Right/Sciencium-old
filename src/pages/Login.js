@@ -5,7 +5,7 @@ import React from "react";
 import "../styles/pages/Login.css";
 
 // Login page
-function Login() {
+export default function Login() {
   return (
     <div className="login-page">
       <div className="hero-wrapper">
@@ -15,5 +15,3 @@ function Login() {
     </div>
   );
 }
-
-export default Login;

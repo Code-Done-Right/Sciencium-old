@@ -3,7 +3,7 @@ import React from "react";
 // none - Import module without exported functions or classes.
 import "../styles/pages/About.css";
 
-function About() {
+export default function About() {
   return (
     <div className="about-page">
       <h1 className="about-text ff-primary">
@@ -20,5 +20,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

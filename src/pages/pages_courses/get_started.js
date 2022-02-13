@@ -3,15 +3,13 @@ import React from "react";
 // none - Import module without exported functions or classes.
 import "../../styles/pages/pages_courses/get_started.css";
 
-function GetStartedPage() {
+export default function GetStartedPage() {
   return (
-    <div className="get-started-page-wrapper">
+    <div className="get-started-page-wrapper ff-secondary">
       <h1 className="introduction-text ff-primary">
         Getting Started with Sciencium
       </h1>
-      Hi! 
+      Hi there! Welcome to the courses page of Sciencium. This page is here to get you started.
     </div>
   );
 }
-
-export default GetStartedPage;

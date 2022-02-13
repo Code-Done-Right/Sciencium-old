@@ -3,7 +3,7 @@ import React from "react";
 // none - Import module without exported functions or classes.
 import "../styles/components/Logo.css";
 
-function Logo() {
+export default function Logo() {
   return (
     <div className="logo ff-primary">
       <span className="logo-letter">S</span>
@@ -18,5 +18,3 @@ function Logo() {
     </div>
   );
 }
-
-export default Logo;

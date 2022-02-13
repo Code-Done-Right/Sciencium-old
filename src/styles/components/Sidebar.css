@@ -29,6 +29,11 @@
     color: hsl(var(--clr-primary-hue), 10%, 65%);
 }
 
+.sub-links > a {
+    color: hsl(var(--clr-primary-hue), 10%, 65%);
+    text-decoration: none;
+}
+
 .sidebar-nav-links > li {
     padding: 0.5vw 0 0.5vw 0;
 }

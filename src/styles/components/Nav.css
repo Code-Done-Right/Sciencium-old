@@ -44,7 +44,7 @@
   padding: 0.5rem 2rem;
   text-decoration: none;
   color: #dddddd;
-  background-color: hsl(var(--clr-secondary-hue), 100%, 50%);
+  background-color: hsl(var(--clr-secondary-hue), 100%, 40%);
   border-radius: 100vw;
   transition: all 250ms ease-in-out;
   font-size: 1.25rem;
