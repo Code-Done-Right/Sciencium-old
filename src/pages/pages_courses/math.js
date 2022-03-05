@@ -9,7 +9,7 @@ export default function MathPage() {
   return (
     <div className="intro-math-page-wrapper">
       <div className="welcome-text ff-primary">Introduction to Math</div>
-      <div className=""></div>
+      <div className="" />
     </div>
   );
 }
