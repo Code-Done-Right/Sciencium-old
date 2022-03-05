@@ -20,6 +20,7 @@ import Courses from "./pages/Courses.js";
 import About from "./pages/About.js";
 
 import IntroductorySciencePage from "./pages/pages_courses/science";
+import MathPage from './pages/pages_courses/math';
 
 import Nav from "./components/Nav.jsx";
 
@@ -42,6 +43,10 @@ export default function App() {
           <Route
             path="/introductory-science"
             element={<IntroductorySciencePage />}
+          />
+          <Route
+            path="/intro-math"
+            element={<MathPage />}
           />
 
           <Route path="*" element={<Navigate to="/" />} />
