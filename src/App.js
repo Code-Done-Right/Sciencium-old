@@ -20,12 +20,12 @@ import Courses from "./pages/Courses.js";
 import About from "./pages/About.js";
 
 import IntroductorySciencePage from "./pages/pages_courses/science";
-import MathPage from './pages/pages_courses/math';
+import MathPage from "./pages/pages_courses/math";
 
 import Nav from "./components/Nav.jsx";
 
 // Primary App
-// [2, { "max": 5 }]
+// [2, { "max": 15 }]
 export default function App() {
   return (
     <div className="app">
@@ -44,10 +44,7 @@ export default function App() {
             path="/introductory-science"
             element={<IntroductorySciencePage />}
           />
-          <Route
-            path="/intro-math"
-            element={<MathPage />}
-          />
+          <Route path="/intro-math" element={<MathPage />} />
 
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
