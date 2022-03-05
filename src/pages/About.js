@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 // none - Import module without exported functions or classes.
 import "../styles/pages/About.css";
 
 export default function About() {
+  useEffect(() => {
+    document.title = `About | Sciencium`;
+  });
   return (
     <div className="about-page">
       <h1 className="about-text ff-primary">

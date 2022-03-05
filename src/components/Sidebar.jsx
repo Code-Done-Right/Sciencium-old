@@ -15,7 +15,9 @@ export default function Sidebar() {
         <li className="sub-links ff-secondary">
           <a href="/introductory-science">Introductory Science</a>
         </li>
-        <li className="sub-links ff-secondary">Math</li>
+        <li className="sub-links ff-secondary">
+          <a href="/intro-math">Math</a>
+        </li>
         <li className="sub-links ff-secondary">Thinking</li>
         <li className="sub-links ff-secondary">Logic</li>
       </ul>
