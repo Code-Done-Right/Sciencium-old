@@ -7,7 +7,7 @@ import "../styles/pages/Login.css";
 // Login page
 export default function Login() {
   useEffect(() => {
-    document.title = `Login | Sciencium`;
+    document.title = "Login | Sciencium";
   });
   return (
     <div className="login-page">

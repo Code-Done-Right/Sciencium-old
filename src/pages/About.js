@@ -5,7 +5,7 @@ import "../styles/pages/About.css";
 
 export default function About() {
   useEffect(() => {
-    document.title = `About | Sciencium`;
+    document.title = "About | Sciencium";
   });
   return (
     <div className="about-page">

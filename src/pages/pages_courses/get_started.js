@@ -5,7 +5,7 @@ import "../../styles/pages/pages_courses/get_started.css";
 
 export default function GetStartedPage() {
   useEffect(() => {
-    document.title = `Get Started! | Courses`;
+    document.title = "Get Started! | Courses";
   });
   return (
     <div className="get-started-page-wrapper ff-secondary">
