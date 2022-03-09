@@ -9,6 +9,17 @@
   background-size: cover;
 }
 
+.basic-info-text-l {
+  margin-left: 5vw;
+  margin-top: 5vh;
+  color: hsl(var(--clr-primary-hue), 10%, 65%);
+  margin-bottom: 10vh;
+}
+
+.info-text-headers-l {
+  color: hsl(var(--clr-secondary-hue), 100%, 75%);
+}
+
 .hero-banner > .welcome {
   color: hsl(var(--clr-secondary-hue), 100%, 75%);
   width: 17ch;

@@ -21,6 +21,14 @@ export default function Home() {
           Start reading our website material to learn more about science!
         </p>
       </div>
+      <div className="basic-info-text-l ff-secondary">
+        <h1 className="info-text-headers-l ff-primary">
+          We help you gain enthusiasm over Science.
+        </h1>
+        Did you ever have an interest in the workings of the natural world, but
+        was too busy to learn more? Sciencium helps you with that!
+      </div>
+      <div className="review-sciencium-element-wrapper"></div>
     </div>
   );
 }
