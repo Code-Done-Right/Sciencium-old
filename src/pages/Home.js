@@ -28,7 +28,7 @@ export default function Home() {
         Did you ever have an interest in the workings of the natural world, but
         was too busy to learn more? Sciencium helps you with that!
       </div>
-      <div className="review-sciencium-element-wrapper"></div>
+      <div className="review-sciencium-element-wrapper" />
     </div>
   );
 }
